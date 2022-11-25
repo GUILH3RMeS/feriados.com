@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <?php
+        $title = $_COOKIE['estado'];
+        $tile = str_replace('-', ' ', $title);
+        echo($title . " Feriados em 2022!");
+    ?>
+    </title>
+</head>
+<body>
 <?php
 $api = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/{$_COOKIE['uf']}/municipios";
 $request_municipio = file_get_contents($api);
@@ -69,3 +84,5 @@ foreach($request_municipio_json as $key => $value){
 echo("</div>");
 
 ?>
+</body>
+</html>

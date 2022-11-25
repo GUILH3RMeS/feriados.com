@@ -1,4 +1,13 @@
-    <section id="feriados_da_semana" style="width: 80%;" class="container">
+   <!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   </head>
+   <body>
+   <section id="feriados_da_semana" style="width: 80%;" class="container">
         <h2 class="text-center" style="margin-bottom: 0.2rem ; margin-top: 3.5rem;">Feriados da semana</h2>
         <?php include "php/dias_da_semana.php";?>
     </section>
@@ -27,3 +36,5 @@ function show(){
         feriados7.style.display = 'block'
 }
 </script>
+   </body>
+   </html>
