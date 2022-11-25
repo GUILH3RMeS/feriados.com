@@ -1,0 +1,19 @@
+.pequeno {
+    width: 20%;
+}
+
+.medio {
+    width: 50%;
+}
+.grande {
+    width: 100%;
+}
+.removeB {
+    border-top:none !important;
+    width: 25%;
+    height: 4rem;
+}
+form{
+    
+    width: 100%;
+}

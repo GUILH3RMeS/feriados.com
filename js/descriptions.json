@@ -1,0 +1,311 @@
+{
+    "Feriado_Nacional":[{
+    "feriado":"Ano Novo",
+    "descricao":"Ano Novo ou ano-novo, conhecido, ainda, como ano-bom, é o momento em que um novo ano civil começa e um novo calendário anual é iniciado. Em muitas culturas ao redor do mundo, o evento é comemorado de alguma maneira, principalmente na véspera da data."
+    },
+        {"feriado":"Carnaval",
+        "descricao":"O Carnaval é um período de festas populares realizadas durante o dia e à noite. As comemorações ocorrem todos os anos, nos meses de fevereiro ou março, começando no sábado e estendendo-se até a Terça-feira de Carnaval."
+},
+{
+    "feriado":"Sexta-Feira Santa",
+    "descricao":"Sexta-feira Santa ou Sexta-Feira da Paixão ou Sexta-Feira Maior é uma data religiosa cristã que relembra a crucificação de Jesus Cristo e sua morte no Calvário."
+},
+{
+    "feriado":"Dia de Tiradentes",
+    "descricao":"O Dia da Inconfidência, popularmente conhecido como Dia de Tiradentes ou simplesmente Tiradentes, é um dos feriados nacionais brasileiros. É uma homenagem ao herói nacional brasileiro Joaquim José da Silva Xavier, mártir da Inconfidência Mineira."
+},
+{
+    "feriado":"Dia do Trabalho",
+    "descricao":"O Dia do Trabalhador, Dia do Trabalho, Dia Internacional dos Trabalhadores é uma data comemorativa internacional, dedicada aos trabalhadores, celebrada anualmente no dia 1 de maio em quase todos os países do mundo, sendo feriado em muitos deles."
+},
+{
+    "feriado":"Corpus Christi",
+    "descricao":"A Solenidade do Santíssimo Sacramento do Corpo e do Sangue de Cristo ou Corpus Christi ou Corpus Domini, e generalizada em Portugal como Corpo de Deus, é uma comemoração litúrgica das igrejas Católica."
+},
+{
+    "feriado":"Independência do Brasil",
+    "descricao":"A independência do Brasil foi declarada em 7 de setembro de 1822 e foi resultado do desgaste das relações luso-brasileiras a partir da Revolução do Porto de 1820. A independência do Brasil aconteceu no dia 7 de setembro de 1822, e, por meio desse acontecimento, o país conquistou a sua emancipação de Portugal."
+},
+{
+    "feriado":"Nossa Senhora Aparecida",
+    "descricao":"Maria Aparecida é considerada a padroeira do Brasil e um dos maiores símbolos religiosos do país. Sua basílica localizada no interior de São Paulo, recebe diversos devotos a cada ano. Em 30 de Junho de 1980, o então Papa João Paulo II visitou o santuário dando origem a oficialização do feriado."
+},
+{
+    "feriado":"Dia de Finados",
+    "descricao":"Dia dos Fiéis Defuntos, Dia de Finados ou Dia dos Mortos é celebrado pela Igreja Católica no dia 2 de novembro. Desde o século II, alguns cristãos rezavam pelos falecidos quando visitavam os túmulos dos mártires. No século V, a Igreja dedicava um dia do ano para rezar por todos os mortos já esquecidos."
+},
+{
+    "feriado":"Proclamação da República",
+    "descricao":"A Proclamação da República foi um golpe militar que marcou o fim do Império do Brasil e o início da República. Ocorreu no dia 15 de novembro de 1889, executada pelo marechal Deodoro da Fonseca."
+},
+{
+    "feriado":"Natal",
+    "descricao":"Natal ou Dia de Natal é um feriado e festival religioso cristão comemorado anualmente em 25 de dezembro. A data é o centro das festas de fim de ano e da temporada de férias, sendo, no cristianismo, o marco inicial do Ciclo do Natal, que dura doze dias."
+    }],
+    "Feriado_Estadual":[{
+        "ac":[{
+            "feriado":"Dia do Católico",
+            "descricao":"É uma data móvel celebrada pela Igreja Católica sempre 60 dias depois do domingo de Páscoa ou na quinta-feira seguinte ao domingo da Santíssima Trindade. Muitos brasileiros usam a data de 'Corpus Christi', celebrada nesta quinta-feira (16), como um dia para viajar ou descansar."
+        },
+        {
+            "feriado":"Dia do Evangélico",
+            "descricao":"O Dia do Evangélico é comemorado anualmente em 30 de novembro. O 30 de novembro, por exemplo, é comemorado pelos evangélicos que consideram o Dia do Evangélico como um feriado, a partir da Lei Distrital."
+        },
+        {
+            "feriado":"Dia da Mulher",
+            "descricao":"Comemora-se o Dia Internacional da Mulher em 8 de março por causa de um episódio histórico. Nesse mesmo dia em 1911 as funcionárias de uma fábrica da Triangle Shirtwaist Company em Nova York, nos Estados Unidos, entraram em greve reivindicando melhores condições de trabalho."
+        },
+        {
+            "feriado":"Aniversário do Acre",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Início da Revolução Acriana",
+            "descricao":"A Revolução Acriana foi uma série de conflitos de fronteira entre a Bolívia e a Primeira República Brasileira, na região noroeste boliviana."
+        },
+        {
+            "feriado":"Dia da Amazônia",
+            "descricao":"o Dia da Amazônia busca alertar para a necessidade de preservação do bioma, um dos mais valiosos patrimônios naturais da humanidade."
+        },
+        {
+            "feriado":"Tratado de Petrópolis",
+            "descricao":"O Tratado de Petrópolis, firmado em 17 de novembro de 1903 em Petrópolis, formalizou a permuta de territórios entre Brasil e Bolívia — uma faixa de terra entre os rios Madeira, o rio Abunã do Brasil para a Bolívia — e o território do atual Acre da Bolívia para o Brasil."
+        }],
+        "al":[{
+            "feriado":"São João",
+            "descricao":"Festas juninas, festas dos santos populares ou celebração do meio do verão são o período centrado no solstício de verão e de inverno e, mais especificamente, nas celebrações do Norte da Europa que ocorrem entre 19 de junho e 25 de junho. As datas exatas variam entre as diferentes culturas."
+        },
+        {
+            "feriado":"São Pedro",
+            "descricao":"O Dia de São Pedro e São Paulo é um feriado estadual comemorado em Alagoas no dia 29 de junho. A data se classifica como uma festividade típica da Igreja Católica, em honra ao martírio dos apóstolos São Pedro e São Paulo, principais líderes no surgimento da Igreja Cristã."
+        },
+        {
+            "feriado":"Aniversário do Alagoas",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        }],
+        "ap":[{
+            "feriado":"Dia de São José",
+            "descricao":"O Dia de São José, também chamado de Festa de São José ou Solenidade de São José, é no cristianismo ocidental a principal festa de São José, marido da Virgem Maria e pai legal de Jesus Cristo, comemorado em 19 de março. Tem o grau de solenidade na Igreja Católica."
+        },
+        {
+            "feriado":"São Tiago",
+            "descricao":"Santiago Maior, também chamado de Santiago Filho do Trovão, Tiago, filho de Zebedeu e Santiago Apóstolo o Maior, martirizado no ano 44, foi um dos doze apóstolos de Jesus Cristo."
+        },
+        {
+            "feriado":"Aniversário do Amapá",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        }],
+        "am":[{
+            "feriado":"Aniversário do Amazonas",
+            "descricao":"Aniversário do estado"
+        },
+        {
+            "feriado":"Dia da Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        
+        },
+        {
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        },
+        {
+            "feriado":"Dia de Nossa Senhora da Conceição",
+            "descricao":"A Imaculada Conceição é, segundo o dogma católico, a concepção da Virgem Maria sem mancha do pecado original. O dogma diz que, desde o primeiro instante de sua existência, a Virgem Maria foi preservada por Deus da falta de graça santificante que aflige a humanidade, porque ela estava cheia de graça divina."
+        }],
+        "ba":[{
+            "feriado":"Independência da Bahia",
+            "descricao":"A Independência da Bahia, também chamada de Independência do Brasil na Bahia, foi um movimento que, iniciado em 19 de fevereiro de 1822 e com desfecho em 2 de julho de 1823,"
+        }],
+        "ce":[{
+            "feriado":"São José",
+            "descricao":"O Dia de São José, também chamado de Festa de São José ou Solenidade de São José, é no cristianismo ocidental a principal festa de São José, marido da Virgem Maria e pai legal de Jesus Cristo, comemorado em 19 de março. Tem o grau de solenidade na Igreja Católica."
+        },
+        {
+            "feriado":"Data Magna do Ceará",
+            "descricao":"O dia celebra o marco histórico do fim da escravidão no Ceará, que foi a primeira província brasileira a libertar os escravos."
+        }],
+        "df":[{
+            "feriado":"Fundação de Brasília",
+            "descricao":"Brasília, inaugurada como capital do Brasil em 1960, é uma cidade planeada que se distingue pela sua arquitetura branca e moderna, essencialmente concebida por Oscar Niemeyer. Disposta em forma de avião, a sua 'fuselagem' é o Eixo Monumental, 2 avenidas amplas flanqueadas por um enorme parque. No 'cockpit' encontra-se a Praça dos Três Poderes, cujo nome provém das 3 agências do governo que a rodeiam."
+        },
+        {
+            "feriado":"Dia do Evangélico",
+            "descricao":"O Dia do Evangélico é comemorado anualmente em 30 de novembro. O 30 de novembro, por exemplo, é comemorado pelos evangélicos que consideram o Dia do Evangélico como um feriado, a partir da Lei Distrital."
+        }],
+        "es":[{
+            "feriado":"Nossa Senhora da Penha",
+            "descricao":"Nossa Senhora da Penha de França ou Nossa Senhora da Penha é um dos nomes que recebe Maria, mãe de Jesus, que acreditam os católicos, apareceu a Simão Vela no oeste da Espanha, numa serra chamada Penha de França. Lá, sua festa é comemorada no dia 8 de setembro."
+        },
+        {
+            "feriado":"Aniversário do Espirito Santo",
+            "descricao":"No dia 23 de maio é celebrado, o dia da Colonização do Solo Espírito-Santense, data essa que teve origem no ano de 1535, quando portugueses a bordo da caravela Glória, desembarcaram na Prainha, em Vila Velha, com a missão de colonizar a então Capitania do Espírito Santo."
+        }],
+        "go":[{
+            "feriado":"Dia do Servidor Público",
+            "descricao":"celebrado o Dia do Servidor Público, uma data para lembrar a importância do funcionalismo público em todo o país. A história desse serviço no Brasil não é recente e possui origem na época do Império."
+        }],
+        "ma":[{
+            "feriado":"Aniversário do Maranhão",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Dia de Nossa Senhora da Conceição",
+            "descricao":"A Imaculada Conceição é, segundo o dogma católico, a concepção da Virgem Maria sem mancha do pecado original. O dogma diz que, desde o primeiro instante de sua existência, a Virgem Maria foi preservada por Deus da falta de graça santificante que aflige a humanidade, porque ela estava cheia de graça divina."
+        }
+    ],
+        "mt":[{
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        }],
+        "ms":[{
+            "feriado":"Aniversário do Mato Grosso do Sul",
+            "descricao":"aniversário do estado"
+        }],
+        "mg":[{
+            "feriado":"Dia de Tiradentes",
+            "descricao":"O Dia da Inconfidência, popularmente conhecido como Dia de Tiradentes ou simplesmente Tiradentes, é um dos feriados nacionais brasileiros. É uma homenagem ao herói nacional brasileiro Joaquim José da Silva Xavier, mártir da Inconfidência Mineira."
+        }],
+        "pa":[{
+            "feriado":"Adesão ao Império Brasileiro",
+            "descricao":"O 15 de agosto, Dia da Adesão do Pará, é uma data importante que significa a independência da Província do Grão Pará. Em 1823, o Pará era a única província que ainda não tinha aderido à Independência do Brasil, ocorrida no dia 07 de setembro. Um ano depois a Província do Pará passa a aderir ao Brasil."
+        }],
+        "pb":[{
+            "feriado":"Aniversário de Parnaíba",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Dia de Nossa Senhora da Conceição",
+            "descricao":"A Imaculada Conceição é, segundo o dogma católico, a concepção da Virgem Maria sem mancha do pecado original. O dogma diz que, desde o primeiro instante de sua existência, a Virgem Maria foi preservada por Deus da falta de graça santificante que aflige a humanidade, porque ela estava cheia de graça divina."
+    }],
+        "pr":[{
+            "feriado":"Aniversário do Pará",
+            "descricao":"aniversário do estado"
+        }],
+        "pe":[{
+            "feriado":"Revolução Pernambucana",
+            "descricao":"A Revolução Pernambucana, também conhecida como Revolução dos Padres, foi um movimento de caráter liberal e republicano que eclodiu no dia 6 de março de 1817 em Pernambuco, no Brasil."
+        },
+        {
+            "feriado":"São João",
+            "descricao":"O Dia de São José, também chamado de Festa de São José ou Solenidade de São José, é no cristianismo ocidental a principal festa de São José, marido da Virgem Maria e pai legal de Jesus Cristo, comemorado em 19 de março. Tem o grau de solenidade na Igreja Católica."
+        }],
+        "pi":[{
+            "feriado":"Dia do Piauí",
+            "descricao":" embora não seja aniversário do estado, é um marco da independência. Há exatos 200 anos, em 19 de outubro de 1822, a então Vila de Parnaíba aderiu à Independência do Brasil, proclamada no mês anterior por Dom Pedro I."
+        }],
+        "rj":[{
+            "feriado":"Carnaval",
+            "descricao":"O Carnaval é um período de festas populares realizadas durante o dia e à noite. As comemorações ocorrem todos os anos, nos meses de fevereiro ou março, começando no sábado e estendendo-se até a Terça-feira de Carnaval."
+        },
+        {
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        }],
+        "rn":[{
+            "feriado":"Mártires de Cunhaú e Uruaçu",
+            "descricao":" feriado religioso Mártires de Cunhaú e Uruaçu. A data tem uma série de programações para celebração dos Santos Mártires, padroeiros do Rio Grande do Norte."
+        }],
+        "rs":[{
+            "feriado":"Aniversário do Mato Grosso do Sul",
+            "descricao":"aniversário do estado"
+        }],
+        "ro":[{
+            "feriado":"Aniversário de Rondônia",
+            "descricao":"aniversário do estado"
+        }],
+        "rr":[{
+            "feriado":"Aniversário de Roraima",
+            "descricao":"aniversário do estado"
+        },
+        {
+            "feriado":"Consciência Negra",
+            "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+        }],
+        "sc":[{
+            "feriado":"Dia do Estado de Santa Catarina",
+            "descricao":"aniversário do estado"
+        }],
+        "sp":[{
+            "feriado":"Revolução Constitucionalista",
+            "descricao":"A Revolução Constitucionalista foi um movimento armado iniciado em 9 de julho de 1932, liderado pelo estado de São Paulo, que defendia uma nova Constituição para o Brasil e atacava o autoritarismo do Governo Provisório de Getúlio Vargas."
+        }],
+        "se":[{
+            "feriado":"Aniversário de Sergipe",
+            "descricao":"aniversário do estado"
+        }],
+        "to":[{
+            "feriado":"Padroeira de Tocantins",
+            "descricao":"No dia 15 de agosto de 1992, durante a Romaria do Bonfim, em Natividade, Nossa Senhora da Natividade foi oficialmente instituída como a padroeira do Tocantins."
+        },
+        {
+            "feriado":"Aniversário de Tocantins",
+            "descricao":"aniversário do estado"
+        }]
+    }],
+    "Facultativo":[{
+        "feriado":"Dia de São José",
+        "descricao":"O Dia de São José, também chamado de Festa de São José ou Solenidade de São José, é no cristianismo ocidental a principal festa de São José, marido da Virgem Maria e pai legal de Jesus Cristo, comemorado em 19 de março. Tem o grau de solenidade na Igreja Católica."
+    },
+        {
+        "feriado":"Carnaval",
+        "descricao":"O Carnaval é um período de festas populares realizadas durante o dia e à noite. As comemorações ocorrem todos os anos, nos meses de fevereiro ou março, começando no sábado e estendendo-se até a Terça-feira de Carnaval."
+},
+{
+    "feriado":"Corpus Christi",
+    "descricao":"A Solenidade do Santíssimo Sacramento do Corpo e do Sangue de Cristo ou Corpus Christi ou Corpus Domini, e generalizada em Portugal como Corpo de Deus, é uma comemoração litúrgica das igrejas Católica ."
+},
+{
+    "feriado":"Dia do Professor",
+    "descricao":"O dia 5 de outubro foi proclamado pela UNESCO como Dia Mundial dos Professores em 1994, para celebrar a aprovação, em 5 de outubro de 1966, a Recomendação da UNESCO / OIT sobre o Estatuto dos Professores, em cooperação com OIT, numa conferência intergovernamental especial convocada pela UNESCO e realizada em Paris."
+},
+{
+    "feriado":"Dia do Servidor Público",
+    "descricao":"Neste dia 28 de outubro dedicado ao funcionário público, prestamos nossa homenagem a todos vocês cidadãos, que fazem e sempre farão parte da história de Nazaré Paulista. Queremos refletir sobre o papel desempenhado por todos os servidores que em sua importante missão trabalham pela população e zelam pelo bem público."
+}],
+"Dia_Convencional":[{
+        "feriado":"Dia do Comércio",
+        "descricao":"Para grande parte da população, esta semana começa com mais um feriado no dia 17 de outubro (segunda-feira). Isso porque no dia 17 de outubro de 2022 comemora-se o Dia do Comércio ou Dia do Comerciário."
+    
+},
+{
+    "feriado":"Dia da Mentira",
+    "descricao":"O Dia da Mentira, também conhecido como Dia das Mentiras, dia das petas, dia dos tolos, dia da gafe, ou dia dos bobos, é uma celebração anual em alguns países europeus e ocidentais, comemorada em 1 de abril, pregando partidas e espalhando boatos como formas de assinalar a data. "
+},
+{
+    "feriado":"Páscoa",
+    "descricao":"No cristianismo, a Páscoa ou Domingo da Ressurreição é uma festividade religiosa e um feriado que celebra a ressurreição de Jesus ocorrida no terceiro dia após sua crucificação no Calvário, conforme o relato do Novo Testamento."
+},
+{
+    "feriado":"Dia do Bancário",
+    "descricao":"Neste domingo, 28 de agosto, é celebrado o dia dos bancários! A data foi escolhida para homenagear uma das mais importantes lutas da classe. Em 28 de agosto de 1951, os bancários se uniram e entraram em greve em busca de melhores condições salariais e, após 69 dias de greve, conquistaram os seus direitos."
+},
+{
+    "feriado":"Dia das Mães",
+    "descricao":"Dia das Mães ou Dia da Mãe é uma data comemorativa que homenageia anualmente a figura familiar materna e a maternidade. A data de comemoração varia de acordo com o país. Em Portugal e nos PALOP é comemorado no primeiro domingo do mês de maio e no Brasil no segundo domingo do mês de maio."
+},
+{
+    "feriado":"Dia dos Namorados",
+    "descricao":"O Dia dos Namorados, em alguns países chamado Dia de São Valentim é uma data especial e comemorativa na qual se celebra a união amorosa entre casais e namorados"
+},
+{
+    "feriado":"Dia dos Pais",
+    "descricao":"Dia dos Pais ou Dia do Pai é uma data comemorativa que homenageia anualmente os pais. A data varia de acordo com os países."
+},
+{
+    "feriado":"Dia do Trabalho",
+    "descricao":"O Dia do Comerciário ou Dia do Comércio é celebrado anualmente em 30 de outubro no Brasil. Oficialmente, esta data foi instituída a partir do decreto de lei nº 12.790, de 14 de março de 2013. A data é considerada uma vitória histórica da classe dos Comerciários por melhores condições de trabalho."
+},
+{
+    "feriado":"Consciência Negra",
+    "descricao":"O Dia Nacional de Zumbi e da Consciência Negra é celebrado, no Brasil, em 20 de novembro. Concebido em 1971, foi formalizado nacionalmente em 2003, como uma efeméride no calendário escolar, até ser instituído como data comemorativa em 2011."
+}
+]
+}
