@@ -101,7 +101,7 @@ $c = str_replace('-',' ',$cidade);
                 }else{
                     $value = trim($value);
                 echo(" > ");
-                echo("<a style='color:#5e0d72' href='../$u[0]'>");
+                echo("<a style='color:#5e0d72' href='javascript:history.back()'>");
                 echo($value);
                 echo("</a>");
                 }

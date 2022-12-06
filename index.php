@@ -33,14 +33,31 @@
 .estado{
     width: 18rem;
     background-color: #f0f0f0;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding:1rem 1.2rem;
+    text-decoration:none;
+}
+.cidade:hover,.estado:hover{
+    background-color:#d1d1d1;
+}
+
+.a_hover:hover{
+    color:#5E0D72;
+    text-decoration:none;
+    background-color: #d1d1d1;
+}
+._table{
     margin: 1.5rem 0.5rem 0rem 0.5rem;
 }
 .cidade{
     width: 23rem;
+    color:#5E0D72;
     background-color: #f0f0f0;
-    font-size: 2rem;
-    margin: 1.5rem 0.5rem 0rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding:1rem 1.2rem;
+    text-decoration:none;
 }
 .dia{
     background-color: #f0f0f0;
@@ -50,6 +67,19 @@
 }
 a{
     color:#5E0D72;
+}
+#search{
+    width:20rem;
+    height:3.5rem;
+    background-color: #7A398A;
+    color:#fff;
+    margin:1rem;
+    border:1px solid #7a398a;
+    border-radius:8px;
+
+}
+#search:hover{
+    background-color:#8e43a1;
 }
     </style>
 </head>

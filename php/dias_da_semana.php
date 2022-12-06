@@ -38,10 +38,10 @@ foreach($dn[0] as $key => $value){
     $value = explode('<',$value[1]);
     array_push($nome_feriados, $value[0]);
 }
-$dia_s = "Thu";
-$dia_n = "13";
-$m_a = "10/2022";
+
+//conversor dia inglês para português
 $semana_eng = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
 $semana_br = [
     'Sun' => 'Dom', 
     'Mon' => 'Seg',
@@ -51,127 +51,27 @@ $semana_br = [
     'Fri' => 'Sex',
     'Sat' => 'Sab' 
 ];
-$semana = [];
-$ii = 0;
+
+//pegar data atual do sistema
+date_default_timezone_set('America/Sao_Paulo');
+$atual_my = date("m/Y");
+$atual_d = 2;
+$atual_day = "Fri";
+//pegar data dos sete dias apartir de domingo (Sun / Dom)
 $semana_eng_length = sizeof($semana_eng);
+$semana = [];
 for($i = 0 ; $i < $semana_eng_length ; $i++){
-    if($semana_eng[$i] === $dia_s){
-    $ii = $i;
-    }
-    }
-    if($ii > 0){
-        $dia_n = $dia_n - $ii;
-    }
-    for($i = 0 ; $i < $semana_eng_length ; $i++){
-        if($dia_n < 10){
-            $dia_n = "0" . $dia_n;
+    if($semana_eng[$i] === $atual_day){
+        $d = $atual_d - $i;
+        if(){
+            
         }
-        $temp_dia = $dia_n . "/" . $m_a ;
-        $dia_n++;
-        array_push($semana, $temp_dia);
-    }
-    $temp_dia = [];
-    foreach($data_feriados[0] as $key => $value){
-        for($i = 0 ; $i < $semana_eng_length ; $i++){
-            if($value == $semana[$i]){
-                array_push($temp_dia, $semana_eng[$i]);
-            }
-        }
-    }
-    $temp_dia_length = sizeof($temp_dia);
-echo('<div id="semana" class="d-flex align-items-center flex-wrap">');
-for($i = 0 ; $i < $semana_eng_length ; $i++){
-    
-    if($dia_s === $semana_eng[$i]){
-        echo('<div class="container-fluid dia" id="dia' . "$i" . '" style="background-color: #340740 ; color: white" onmouseenter="show()">');
-        echo("hoje");
-        echo('</div>');
-    }else{
-        for($j = 0 ; $j <  $temp_dia_length ; $j++){
-            if($temp_dia[$j] == $semana_eng[$i]){
-                if($i == 0){
-                    print_r("<div id='um' class='absolute' style='position: absolute; top: 10rem; right: 104rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else if($i == 1){
-                    echo("<div id='dois' class='absolute' style='position: absolute; top: 10rem; right: 91rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else if($i == 2){
-                    echo("<div id='tres' class='absolute' style='position: absolute; top: 10rem; right: 78rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else if($i == 3){ 
-                    echo("<div id='quatro' class='absolute' style='position: absolute; top: 14rem; right: 65rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray ; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else if($i == 4){
-                    echo("<div id='cinco' class='absolute' style='position: absolute; top: 14rem; right: 51.8rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray ; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else if($i == 5){
-                    echo("<div id='seix' class='absolute' style='position: absolute; top: 14rem; right: 38rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }else{
-                    echo("<div id='sete' class='absolute' style='position: absolute; top: 14rem; right: 11.8rem; width: 300px; height: 40px; border: 1px solid black; background-color: lightgray ; display: none' onhover='show()'>");
-                    foreach($data_feriados[0] as $key => $value){
-                        if($value == $semana[$i]){
-                            print_r($datanome_feriados[$key]);
-                            echo("<br>");
-                            print_r($tipo_feriados[$key]);
-                        }
-                    }
-                    echo("</div>");
-                }
-                echo('<div class="container-fluid dia" id="dia' . "$i" . '" style="background-color: #7A398A; color: white" onmouseenter="show()">');
-                    echo($semana_br[$semana_eng[$i]]);
-                echo('</div>'); 
-            }else{
-                if($j > 0){
-            echo('<div class="container-fluid dia" id="dia' . "$i" . '" >');
-            echo($semana_br[$semana_eng[$i]]);
-            echo('</div>');
-                }
-            }
-        }
+        array_push($semana,$d);
     }
 }
-echo('</div>');
+for($i = 0 ; $i < $semana_eng_length ; $i++){
+    array_push($semana, $semana[$i]+1);
+}
+array_pop($semana);
+print_r($semana);
 ?>

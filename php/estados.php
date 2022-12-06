@@ -15,7 +15,16 @@ foreach($request_estados_json as $key => $value){
         $uf = $value->sigla;
         $uf = strtolower($uf);
     }
-    echo("<div id='estado' class='estado'><form action='php/rename.php' method='post'><input type='hidden' value='$uf' name='uf'> <input type='hidden' value='$estado_url' name='estado'><button type='submit' class='btn btn-light grande font-weight-bold'>$estado</button></form></div>");
+    echo("
+        <div class='_table'>
+            <form action='php/rename.php' method='post' id='form_$estado_url' class='d-flex'>
+                <input type='hidden' value='$uf' name='uf'> 
+                <input type='hidden' value='$estado_url' name='estado'>
+            </form>");
+            echo('<a class="a_hover" onClick="');
+                echo("document.getElementById('"."form_$estado_url'".').submit();"');
+            echo("><div id='$estado_url' class='estado'>$estado</div></a>");
+    echo("</div>");
 }
 echo("</div>");
 ?>
