@@ -55,9 +55,9 @@ $semana_br = [
 //pegar data atual do sistema
 date_default_timezone_set('America/Sao_Paulo');
 $atual_y = date("Y");
-$atual_m = 6;
-$atual_d = 14;
-$atual_D = "Tue";
+$atual_m = date("m");
+$atual_d = date("d");
+$atual_D = date("D");
 $total_d = cal_days_in_month(CAL_GREGORIAN, $atual_m, $atual_y);
 $domingo = 0;
 //pegar data dos sete dias apartir de domingo (Sun / Dom)
