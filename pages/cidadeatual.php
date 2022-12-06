@@ -7,9 +7,10 @@
     
     <!-- title -->
     <title><?php
+        $ano = $_COOKIE['ano'];
         $title = $_COOKIE['cidade'];
         $title = str_replace('-', ' ', $title);
-        echo($title . " Feriados em 2022!");
+        echo($title . " Feriados em $ano!");
     ?></title>
 
     <!-- description -->
@@ -26,11 +27,22 @@
             max-width:80%;
             margin:auto;
         }
+        .year_container{
+            width:25rem;
+            background-color: #f0f0f0;
+            font-size: 2rem;
+            padding: 5px 25px;
+            margin: 1.5rem;
+            color: #5E0D72;
+            border-radius: 8px;
+            border:none;
+        }
     </style>
 </head>
 <body>  
 <?php
-$ano = 2022;
+$next_Y = $ano+1;
+$prev_Y = $ano-1;
 $uf = $_COOKIE['uf'];
 $estado = $_COOKIE['estado'];
 $cidade = $_COOKIE['cidade'];
@@ -127,9 +139,25 @@ echo("<div id='input_pesquisa' class='text-center' style='margin: auto'>");
           echo("<option value='$city_url'>$city_url</option>");
       }  
     }
-echo('</select><br>');
-echo('<button onclick="href()" id="search">pesquisar</button>');
-echo("</div>");
+print_r('</select><br>');
+print_r('<button onclick="href()" id="search">pesquisar</button>');
+print_r("</div>");
+print_r("<div id='years' class='flex'>");
+echo("<form action='../php/rename.php");
+print_r("' method='post'>");
+print_r("<input type='hidden' name='uf' value='"."$uf"."'>
+        <input type='hidden' value='$cidade' name='cidade'>
+        <input type='hidden' name='ano' value='$prev_Y'>");
+print_r("<button class='year_container'>Feriados em ". $prev_Y ."</button>");
+print_r("</form>");
+echo("<form action='../php/rename.php");
+print_r("' method='post' style='text-align:end;'>");
+print_r("<input type='hidden' name='uf' value='"."$uf"."'>
+        <input type='hidden' value='$cidade' name='cidade'>
+        <input type='hidden' name='ano' value='$next_Y'>");
+print_r("<button class='year_container'>Feriados em ". $next_Y ."</button>");
+print_r("</form>");
+print_r("</div>");
 foreach($data_feriados[0] as $key => $value){
     if($key < 13 && $key > 0){
     echo("<div class='mes text-center' id='mes_$key'><h1 class='h1 font-weight-bold'>$meses[$key]</h1>");

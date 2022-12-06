@@ -26,7 +26,7 @@
 $api = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/{$_COOKIE['uf']}/municipios";
 $request_municipio = file_get_contents($api);
 $request_municipio_json = json_decode($request_municipio);
-$ano = date("y");
+$ano = date("Y");
 
 $estado = $_COOKIE['estado'];
 $e = str_replace('-',' ',$estado);

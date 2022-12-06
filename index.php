@@ -17,6 +17,12 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <style>
+        .flex{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
 #semana, #cidades{
     display: flex;
     flex-direction: row;
@@ -64,6 +70,7 @@
     font-size: 2rem;
     padding: 5px 25px;
     margin-top: 1.5rem;
+    color: #5E0D72;
 }
 a{
     color:#5E0D72;

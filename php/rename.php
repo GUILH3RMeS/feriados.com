@@ -11,6 +11,7 @@ if (!file_exists($filename)) {
 header("Location: ../{$estado}");
 }else{
     setcookie('cidade', "{$_POST['cidade']}", time()+3600*24, "/");
+    setcookie('ano', "{$_POST['ano']}", time()+3600*24, "/");
 
     $cidade = $_POST['cidade'];
     $ano = $_POST['ano'];
